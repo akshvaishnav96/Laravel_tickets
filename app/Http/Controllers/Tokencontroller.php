@@ -16,7 +16,7 @@ class Tokencontroller extends Controller
                 'message' => 'Successfully Fetched Data',
                 'status' => 'success',
                 'data' => $data
-            ], 201);
+            ], 200);
         } else {
             return response([
                 'message' => 'Something Went Wrong',
